@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Chapitre 2 : La pollution des milieux naturels</title>
+    <style>
+        html { box-sizing: border-box; }
+        *, *::before, *::after { box-sizing: inherit; }
+        body {
+            font-family: "Georgia", serif;
+            line-height: 1.8;
+            color: #333;
+            background-color: #fdfdfd;
+            margin: 0;
+            padding: 0;
+        }
+        .cover-container {
+            height: 600px;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #2d5016 0%, #1a3009 100%);
+            margin: 0 auto;
+            max-width: 880px;
+        }
+        .cover-container::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 65%;
+            height: 100%;
+            background-image: url(https://agents-download.skywork.ai/image/rt/dd666531f3fb09ec70547c68be9b8758.jpg);
+            background-size: cover;
+            background-position: center;
+            clip-path: polygon(30% 0%, 100% 0%, 100% 100%, 0% 100%);
+            opacity: 0.95;
+            z-index: 1;
+        }
+        .content-wrapper { position: relative; z-index: 3; text-align: center; color: white; padding: 20px; }
+        .title-block { background: rgba(45, 80, 22, 0.85); padding: 40px; border-radius: 8px; backdrop-filter: blur(5px); }
+        .container { max-width: 880px; margin: 20px auto; padding: 40px; background: white; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .toc-container { max-width: 880px; margin: 0 auto; padding: 40px; background: #2d5016; color: white; }
+        .toc-container a { color: #e8f4e8; text-decoration: none; }
+        h2 { border-bottom: 2px solid #eee; padding-bottom: 10px; margin-top: 40px; }
+        blockquote { border-left: 5px solid #2d5016; padding-left: 20px; font-style: italic; color: #555; }
+    </style>
+</head>
+<body>
+
+<div class="cover-container">
+    <div class="content-wrapper">
+        <div class="title-block">
+            <div style="letter-spacing: 2px; text-transform: uppercase; font-size: 14px;">Chapitre 2</div>
+            <h1 style="font-size: 40px; margin: 10px 0;">La pollution des milieux naturels</h1>
+            <p>Enjeux écologiques et stratégies de préservation</p>
+        </div>
+    </div>
+</div>
+
+<div class="toc-container">
+    <h2>Table des matières</h2>
+    <ul>
+        <li><a href="#section-1">2.1 Définition de l'effet de serre</a></li>
+        <li><a href="#section-2">2.2 Mécanisme de l'effet de serre</a></li>
+        <li><a href="#section-3">2.3 Les gaz à effet de serre (GES)</a></li>
+        <li><a href="#section-4">2.4 Impact sur l'environnement</a></li>
+    </ul>
+</div>
+
+<div class="container">
+    <section id="section-1">
+        <h2>2.1 Définition de l’effet de serre</h2>
+        <p>L'effet de serre est un phénomène thermique naturel qui permet de maintenir une température viable à la surface de la Terre...</p>
+    </section>
+
+    <section id="section-2">
+        <h2>2.2 Mécanisme de l’effet de serre</h2>
+        
+
+[Image of the greenhouse effect diagram]
+
+        <p>Le fonctionnement de l'effet de serre peut être décomposé en plusieurs étapes clés...</p>
+    </section>
+</div>
+
+</body>
+</html>
